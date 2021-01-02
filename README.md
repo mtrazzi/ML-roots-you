@@ -6,27 +6,19 @@
 
 Devs who want to get into cybersecurity often go through RootMe coding challenges. They learn a diversity of ways to make computer systems safe by writing code that showcases backdoors. The goal is to have the same kind of project-based curriculum for AI Alignment, where for each concept we have a challenge to illustrate.
 
-### In practice
+### Example
 
-First step is to have a github repository with a handful of challenges for reinforcement learning exploits. If the feedback on that repository is successful we could start creating environments for other concepts or just link to already existing examples in the literature, turning AI Alignment research into coding challenges.
-
-### More precisely
-
-There would be additional rules for different sub-challenges using the same environment. The sub-challenges could include one pure RL example showcasing a RL failure mode, one simple example to show what a safer solution could look like and one open problem. For each non-open sub-challenge there could be hints/relevant algorithms and a benchmark indicated in the description.
-
-### Concrete examples
-
-There’s a gym environment that demonstrates the concept of treacherous turn. Possible sub-challenges could include maximizing reward:
+The [treacherous turn gym environment](https://github.com/mtrazzi/gym-alttp-gridworld). Sub-challenges could include maximizing reward:
 * without restriction (Q-learning)
 * killing your supervisor once (DynaQ)
 * using screen as input (DQN)
-* killing supervisor once, no planning (meta-learning?)
+* killing supervisor once, no planning (meta-learning)
 
-The key-chest mesa misalignment env (code). AI Safety gridworlds has plenty of envs. Sub-challenges could be first to make a pure reward maximizer (that exploits the environment) then an open problem where the goal is to maximize a combination of reward & safety performance. Viktoria’s list has a lot more examples.
+Check the [challenges](./challenges) folder for a rough draft.
 
-### What this would look like
+### More ideas
 
-Check the [challenges](./challenges) folder.
+The [key-chest mesa misalignment env](https://www.lesswrong.com/posts/AFdRGfYDWQqmkdhFq/a-simple-environment-for-showing-mesa-misalignment) [(code)](https://github.com/MatthewJBarnett/Emprical-Mesa-Optimization). AI Safety gridworlds has plenty of envs. Sub-challenges could be first to make a pure reward maximizer (that exploits the environment) then an open problem where the goal is to maximize a combination of reward & safety performance. Viktoria’s list has a lot more examples.
 
 ### TODO
 
