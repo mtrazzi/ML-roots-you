@@ -9,6 +9,14 @@
 
 Devs who want to get into cybersecurity often go through RootMe coding challenges. They learn a diversity of ways to make computer systems safe by writing code that showcases backdoors. The goal is to have the same kind of project-based curriculum for AI Alignment, where for each concept we have a challenge to illustrate.
 
+### What
+
+Challenges for Reinforcement Learning (RL) exploits, and the corresponding environments. Environments could have multiple sub-challenges with different rules. For instance:
+* Full RL problem where the agent needs to exploit a flaw in the env. design.
+* An open problem to show what a safer solution could look like, with both a reward and a safety metric.
+
+For each non-open sub-challenge there could be hints/relevant literature and a benchmark indicated in the description.
+
 ### Example
 
 The [treacherous turn gym environment](https://github.com/mtrazzi/gym-alttp-gridworld). Sub-challenges could include maximizing reward:
