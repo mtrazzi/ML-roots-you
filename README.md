@@ -1,6 +1,9 @@
-# ML-roots-you
+> Like Root Me, but the environment exploit is Machine Learning based
 
-> Like Root Me, but it’s a ML model that exploits a loophole in the dataset / environment
+<p align="center">
+
+<img src="./img/logo.png" alt="logo">
+</p>
 
 ### Why
 
@@ -18,7 +21,7 @@ Check the [challenges](./challenges) folder for a rough draft.
 
 ### More ideas
 
-The [key-chest mesa misalignment env](https://www.lesswrong.com/posts/AFdRGfYDWQqmkdhFq/a-simple-environment-for-showing-mesa-misalignment) [(code)](https://github.com/MatthewJBarnett/Emprical-Mesa-Optimization). AI Safety gridworlds has plenty of envs. Sub-challenges could be first to make a pure reward maximizer (that exploits the environment) then an open problem where the goal is to maximize a combination of reward & safety performance. Viktoria’s list has a lot more examples.
+The [key-chest mesa misalignment env](https://www.lesswrong.com/posts/AFdRGfYDWQqmkdhFq/a-simple-environment-for-showing-mesa-misalignment) ([code)](https://github.com/MatthewJBarnett/Emprical-Mesa-Optimization)). [AI Safety gridworlds](https://github.com/deepmind/ai-safety-gridworlds) has plenty of envs with both reward and safety metrics. Sub-challenges could be first to make a pure reward maximizer (that exploits the environment) then an open problem where the goal is to maximize a combination of reward & safety performance. Viktoria’s [list](http://tinyurl.com/specification-gaming) many similar examples.
 
 ### TODO
 
